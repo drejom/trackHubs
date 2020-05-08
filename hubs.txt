@@ -1,0 +1,6 @@
+hub COHCGT
+shortLabel Center for Gene Therapy City of Hope
+longLabel Center for Gene Therapy Hub for genomics resources developed in the Center laboratories
+genomesFile genomes.txt
+email domeally@coh.org
+descriptionUrl cohCgtHub.html
