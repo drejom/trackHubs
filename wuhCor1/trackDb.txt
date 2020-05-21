@@ -67,5 +67,5 @@ type bigWig
 visibility dense
 autoScale on
 graphTypeDefault points
-color 184,204,10
-# apple yellow green
+color 205,29,10
+# red
