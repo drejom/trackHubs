@@ -92,7 +92,7 @@ shortLabel Kim motif
 longLabel Kim et al frequently modified motif AAGAA 
 type bigBed 4 .
 visibility dense
-autoScale on
+labelFields none
 graphTypeDefault points
 color 128,0,128  
 # alligator green
