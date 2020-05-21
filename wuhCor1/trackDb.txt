@@ -6,6 +6,17 @@
 #- Andrews  et al 2020
 #----------------------------------
 
+track andrews.dGZsc.bw
+bigDataUrl andrews.dGZsc.bw
+shortLabel Andrews dGZsc
+longLabel Andrews et al delta G Z-score
+type bigWig
+visibility dense
+autoScale on
+graphTypeDefault points
+color 25,25,112
+# midnight blue
+
 track andrews.EDV.bw
 bigDataUrl andrews.EDV.bw
 html andrews.EDV
@@ -15,8 +26,8 @@ type bigWig
 visibility dense
 autoScale on
 graphTypeDefault points
-color 128,0,128  
-# purple
+color 0,0,128  
+# navy
 
 track andrews.MFEdG.bw
 bigDataUrl andrews.MFEdG.bw
@@ -26,19 +37,8 @@ type bigWig
 visibility dense
 autoScale on
 graphTypeDefault points
-color 50,97,129 
-# off blue
-
-track andrews.dGZsc.bw
-bigDataUrl andrews.dGZsc.bw
-shortLabel Andrews dGZsc
-longLabel Andrews et al delta G Z-score
-type bigWig
-visibility dense
-autoScale on
-graphTypeDefault points
-color 129,50,97
-# dirty purple
+color 0,0,139
+# dark blue
 
 track andrews.pvalue.bw
 bigDataUrl andrews.pvalue.bw
@@ -48,8 +48,8 @@ type bigWig
 visibility dense
 autoScale on
 graphTypeDefault points
-color 129,81,50
-# brown
+color 0,0,205
+# medium blue
 
 #----------------------------------
 #- Rangan et al 2020 
@@ -62,8 +62,8 @@ type bigWig
 visibility dense
 autoScale on
 graphTypeDefault points
-color 10,185,205
-# off cyan
+color 139,69,19
+# saddle brown
 
 track rangan.100CoV_perc_cons.bw
 bigDataUrl rangan.100CoV_perc_cons.bw
@@ -73,8 +73,8 @@ type bigWig
 visibility dense
 autoScale on
 graphTypeDefault points
-color 205,29,10
-# red
+color 160,82,45
+# sienna
 
 
 ###############################################################
@@ -94,7 +94,7 @@ type bigBed 4 .
 visibility dense
 labelFields none
 graphTypeDefault points
-color 255,0,255  
+color 128,0,128  
 # purple
 
 track kim.mod_sites.bb
@@ -106,5 +106,5 @@ type bigBed 4 .
 visibility dense
 labelFields none
 graphTypeDefault points
-color 255,100,255  
-# purple
+color 153,50,204  
+# dark orchid
