@@ -1,0 +1,43 @@
+track  andrews.EDV.bw
+bigDataUrl andrews.EDV.bw
+shortLabel Andrews EDV
+longLabel This bigWig file is an example from the ENCODE RNA-seq CSHL Track
+type bigWig
+visibility dense
+autoScale off
+graphTypeDefault points
+color 128,0,128  # alligator green
+
+
+track bigBed1
+bigDataUrl http://hgdownload.soe.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeCaltechRnaSeq/wgEncodeCaltechRnaSeqGm12891R2x75Il200JunctionsRep1V3.bigBed
+shortLabel bigBed example
+longLabel This bigBed file is an example from the ENCODE RNA-seq Caltech Track
+type bigBed
+visibility dense
+
+
+
+
+COH.siRNAs.bed
+DSIR.score.bed
+oligowalk.probablity.bed
+SARS1.efficacy.bed
+
+kim.mod_motif.bed
+
+andrews.MFEdG.bw
+andrews.dGZsc.bw
+andrews.pvalue.bw
+andrews.scanfold.bed
+
+rangan.100CoV_perc_cons.bw
+rangan.Table1.conserved.bed
+rangan.prob_unparied.bw
+
+siRNA.MULTIZ119.bed
+siRNA.MULTIZ44.bed
+siRNA.SARS1.bed
+siRNA.gencode.bed
+siRNA.gencodeRC.bed
+siRNA.gisaid.bed

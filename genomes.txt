@@ -1,3 +1,2 @@
 genome wuhCor1
 trackDb wuhCor1/trackDb.txt
-metaTab wuhCor1/tabSeparatedFile.txt 
