@@ -3,6 +3,7 @@
 
 track andrews.EDV.bw
 bigDataUrl andrews.EDV.bw
+html andrews.EDV
 shortLabel Andrews EDV
 longLabel Andrews et al Ensemble Diversity Values
 type bigWig
