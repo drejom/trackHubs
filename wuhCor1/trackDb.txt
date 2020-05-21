@@ -13,5 +13,5 @@ track andrews.scanfold.bed
 bigDataUrl andrews.scanfold.bed
 shortLabel ScanFold RNA structures
 longLabel This bigBed file shows ScanFold structured RNA regions according to Andrews et al 2020 
-type bigBed
+type Bed
 visibility dense
