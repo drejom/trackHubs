@@ -1,5 +1,10 @@
-#BigWigs
-# Andrews  et al 2020
+###############################################################
+#############   BIG BEDS   ####################################
+###############################################################
+
+#----------------------------------
+#- Andrews  et al 2020
+#----------------------------------
 
 track andrews.EDV.bw
 bigDataUrl andrews.EDV.bw
@@ -46,9 +51,9 @@ graphTypeDefault points
 color 129,81,50
 # brown
 
-###############################################################
-# Rangan et al 2020 
-
+#----------------------------------
+#- Rangan et al 2020 
+#----------------------------------
 track rangan.prob_unparied.bw
 bigDataUrl rangan.prob_unparied.bw
 shortLabel Rangan Prob unpaired
@@ -70,3 +75,24 @@ autoScale on
 graphTypeDefault points
 color 205,29,10
 # red
+
+
+###############################################################
+#############   BIG BEDS   ####################################
+###############################################################
+
+#----------------------------------
+#- Kim et al 2020
+#----------------------------------
+
+track kim.mod_motif.bb
+bigDataUrl kim.mod_motif.bb
+html kim.mod_motif
+shortLabel Kim motif
+longLabel Kim et al frequently modified motif AAGAA 
+type bigBed 4 .
+visibility dense
+autoScale on
+graphTypeDefault points
+color 128,0,128  
+# alligator green
