@@ -16,7 +16,7 @@ visibility dense
 autoScale on
 graphTypeDefault points
 color 128,0,128  
-# alligator green
+# purple
 
 track andrews.MFEdG.bw
 bigDataUrl andrews.MFEdG.bw
@@ -94,5 +94,17 @@ type bigBed 4 .
 visibility dense
 labelFields none
 graphTypeDefault points
-color 128,0,128  
-# alligator green
+color 255,0,255  
+# purple
+
+track kim.mod_sites.bb
+bigDataUrl kim.mod_sites.bb
+html kim.mod_sites
+shortLabel Kim sites
+longLabel Kim et al gRNA sites with modifications in transcripts (Nanopore)
+type bigBed 4 .
+visibility dense
+labelFields none
+graphTypeDefault points
+color 255,100,255  
+# purple
