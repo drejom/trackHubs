@@ -1,3 +1,6 @@
+#BigWigs
+# Andrews  et al 2020
+
 track  andrews.EDV.bw
 bigDataUrl andrews.EDV.bw
 shortLabel Andrews EDV
@@ -9,9 +12,69 @@ graphTypeDefault points
 color 128,0,128  
 # alligator green
 
+track  andrews.MFEdG.bw
+bigDataUrl andrews.MFEdG.bw
+shortLabel Andrews MFEdG
+longLabel Andrews et al Minimum Free Energy delta G
+type bigWig
+visibility dense
+autoScale off
+graphTypeDefault points
+color 50, 97, 129 
+# off blue
+
+track  andrews.dGZsc.bw
+bigDataUrl andrews.dGZsc.bw
+shortLabel Andrews dGZsc
+longLabel Andrews et al delta G Z-score
+type bigWig
+visibility dense
+autoScale off
+graphTypeDefault points
+color 129, 50, 97  
+# dirty purple
+
+track  andrews.pvalue.bw
+bigDataUrl andrews.pvalue.bw
+shortLabel Andrews pvalue
+longLabel Andrews et al z-score p-values
+type bigWig
+visibility dense
+autoScale off
+graphTypeDefault points
+color 129, 81, 50  
+# brown
+
+###############################################################
+# Rangan et al 2020 
+
+track  rangan.prob_unparied.bw
+bigDataUrl rangan.prob_unparied.bw
+shortLabel Rangan prob_unpaired
+longLabel Rangan et al probability of being unpaired
+type bigWig
+visibility dense
+autoScale off
+graphTypeDefault points
+color 10, 185, 205 
+# off cyan
+
+track  rangan.100CoV_perc_cons.bw
+bigDataUrl rangan.100CoV_perc_cons.bw
+shortLabel Rangan 100CoV_perc_cons
+longLabel Rangan et al vertbrate CoVs conservation
+type bigWig
+visibility dense
+autoScale off
+graphTypeDefault points
+color 184, 204, 10  
+# apple yellow green
+
+
 track andrews.scanfold.bed
 bigDataUrl andrews.scanfold.bed
 shortLabel ScanFold RNA structures
 longLabel This bigBed file shows ScanFold structured RNA regions according to Andrews et al 2020 
 type Bed
 visibility dense
+
