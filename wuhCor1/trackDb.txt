@@ -2,7 +2,6 @@
 # Andrews  et al 2020
 
 track andrews.EDV.bw
-htmlUrl andrews.EDV.txt
 bigDataUrl andrews.EDV.bw
 shortLabel Andrews EDV
 longLabel Andrews et al Ensemble Diversity Values
