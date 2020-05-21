@@ -4,7 +4,7 @@
 track andrews.EDV.bw
 bigDataUrl andrews.EDV.bw
 shortLabel Andrews EDV
-longLabel This bigWig file shows the Ensemble Diversity Values from Andrews et al 2020
+longLabel Andrews et al Ensemble Diversity Values
 type bigWig
 visibility dense
 autoScale on
@@ -50,7 +50,7 @@ color 129,81,50
 
 track rangan.prob_unparied.bw
 bigDataUrl rangan.prob_unparied.bw
-shortLabel Rangan prob_unpaired
+shortLabel Rangan Prob unpaired
 longLabel Rangan et al probability of being unpaired
 type bigWig
 visibility dense
@@ -61,8 +61,8 @@ color 10,185,205
 
 track rangan.100CoV_perc_cons.bw
 bigDataUrl rangan.100CoV_perc_cons.bw
-shortLabel Rangan 100CoV_perc_cons
-longLabel Rangan et al vertbrate CoVs conservation
+shortLabel Rangan conservation
+longLabel Rangan et al Top 100 Blast hits Conservation
 type bigWig
 visibility dense
 autoScale on
