@@ -7,7 +7,7 @@ shortLabel Andrews EDV
 longLabel This bigWig file shows the Ensemble Diversity Values from Andrews et al 2020
 type bigWig
 visibility dense
-autoScale off
+autoScale on
 graphTypeDefault points
 color 128,0,128  
 # alligator green
@@ -18,7 +18,7 @@ shortLabel Andrews MFEdG
 longLabel Andrews et al Minimum Free Energy delta G
 type bigWig
 visibility dense
-autoScale off
+autoScale on
 graphTypeDefault points
 color 50,97,129 
 # off blue
@@ -29,7 +29,7 @@ shortLabel Andrews dGZsc
 longLabel Andrews et al delta G Z-score
 type bigWig
 visibility dense
-autoScale off
+autoScale on
 graphTypeDefault points
 color 129,50,97
 # dirty purple
@@ -40,7 +40,7 @@ shortLabel Andrews pvalue
 longLabel Andrews et al z-score p-values
 type bigWig
 visibility dense
-autoScale off
+autoScale on
 graphTypeDefault points
 color 129,81,50
 # brown
@@ -54,7 +54,7 @@ shortLabel Rangan prob_unpaired
 longLabel Rangan et al probability of being unpaired
 type bigWig
 visibility dense
-autoScale off
+autoScale on
 graphTypeDefault points
 color 10,185,205
 # off cyan
@@ -65,7 +65,7 @@ shortLabel Rangan 100CoV_perc_cons
 longLabel Rangan et al vertbrate CoVs conservation
 type bigWig
 visibility dense
-autoScale off
+autoScale on
 graphTypeDefault points
 color 184,204,10
 # apple yellow green
