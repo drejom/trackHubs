@@ -6,7 +6,8 @@ type bigWig
 visibility dense
 autoScale off
 graphTypeDefault points
-color 128,0,128  # alligator green
+color 128,0,128  
+# alligator green
 
 track andrews.scanfold.bed
 bigDataUrl andrews.scanfold.bed
