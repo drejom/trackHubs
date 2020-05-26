@@ -118,7 +118,7 @@ bigDataUrl andrews.scanfold.bb
 html andrews.scanfold
 shortLabel Andrews structured
 longLabel Andrews et al ScanFold structured regions 
-type bigBed 4 .
+type bigBed 6 .
 visibility dense
 labelFields none
 graphTypeDefault bar
