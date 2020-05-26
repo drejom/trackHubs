@@ -227,7 +227,7 @@ bigDataUrl siRNA.gencode.bb
 html siRNA.gencode
 shortLabel Seed freq
 longLabel Frequency of 6bp seeds in human transcriptome 
-type bigBed 4 .
+type bedGraph . 
 visibility dense
 labelFields none
 graphTypeDefault bar
@@ -239,7 +239,7 @@ bigDataUrl siRNA.gencodeRC.bb
 html siRNA.gencode
 shortLabel Seed freq (RC)
 longLabel Frequency of reverse complement 6bp seeds in human transcriptome
-type bigBed 4 .
+type bedGraph .
 visibility dense
 labelFields none
 graphTypeDefault bar
