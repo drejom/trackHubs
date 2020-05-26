@@ -126,6 +126,46 @@ color 72,61,139
 # dark slate blue
 
 #----------------------------------
+#- Rangan et al 2020
+#----------------------------------
+
+track rangan.Table1.conserved.bb
+bigDataUrl rangan.Table1.conserved.bb
+html rangan.Table1.conserved
+shortLabel Rangan conserved
+longLabel Rangan et al conserved regions 
+type bigBed 4 .
+visibility dense
+labelFields none
+graphTypeDefault bar
+color 210,105,30  
+# chocolate
+
+track rangan.Table2.cons_str.bb
+bigDataUrl rangan.Table2.cons_str.bb
+html rangan.Table2.cons_str
+shortLabel Rangan conserved structured
+longLabel Rangan et al conserved structured regions 
+type bigBed 4 .
+visibility dense
+labelFields none
+graphTypeDefault bar
+color 205,133,63 
+# peru
+
+track rangan.Table3.cons_unstr.bb
+bigDataUrl rangan.Table3.cons_unstr.bb
+html rangan.Table3.cons_unstr
+shortLabel Rangan conserved unstructured
+longLabel Rangan et al conserved unstructured regions 
+type bigBed 4 .
+visibility dense
+labelFields none
+graphTypeDefault bar
+color 244,164,96  
+# sandy brown
+
+#----------------------------------
 #- Conservation
 #----------------------------------
 
