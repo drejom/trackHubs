@@ -172,8 +172,8 @@ color 244,164,96
 track siRNA.SARS1.bb
 bigDataUrl siRNA.SARS1.bb
 html siRNA.SARS1
-shortLabel siRNA in SARS1
-longLabel Presence of identical window in SARS1 genome
+shortLabel 21bp in SARS1
+longLabel Presence of identical 21bp window in SARS1 genome
 type bigBed 4 .
 visibility dense
 labelFields none
