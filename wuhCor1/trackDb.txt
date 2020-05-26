@@ -61,7 +61,7 @@ longLabel Rangan et al probability of being unpaired
 type bigWig
 visibility dense
 autoScale on
-graphTypeDefault points
+graphTypeDefault bar
 color 139,69,19
 # saddle brown
 
@@ -72,7 +72,7 @@ longLabel Rangan et al Top 100 Blast hits Conservation
 type bigWig
 visibility dense
 autoScale on
-graphTypeDefault points
+graphTypeDefault bar
 color 160,82,45
 # sienna
 
@@ -108,3 +108,20 @@ labelFields none
 graphTypeDefault points
 color 153,50,204  
 # dark orchid
+
+
+#----------------------------------
+#- Conservation
+#----------------------------------
+
+track siRNA.SARS1.bb
+bigDataUrl siRNA.SARS1.bb
+html siRNA.SARS1
+shortLabel siRNA in SARS1
+longLabel Presence of identical window in SARS1 genome
+type bigBed 4 .
+visibility dense
+labelFields none
+graphTypeDefault bar
+color 0,0,0  
+# black
