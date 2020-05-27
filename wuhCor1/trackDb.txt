@@ -194,8 +194,8 @@ graphTypeDefault bar
 color 250,128,114  
 # salmon
 
-track siRNA.MULTIZ44.bb
-bigDataUrl siRNA.MULTIZ44.bb
+track siRNA.MULTIZ44.bw
+bigDataUrl siRNA.MULTIZ44.bw
 html siRNA.MULTIZ44
 shortLabel MULTIZ44 freq
 longLabel Frequency of 21bp window in MULTIZ44 (bat Cov) genomes
@@ -206,8 +206,8 @@ graphTypeDefault bar
 color 0,128,128  
 # teal
 
-track siRNA.MULTIZ119.bb
-bigDataUrl siRNA.MULTIZ119.bb
+track siRNA.MULTIZ119.bw
+bigDataUrl siRNA.MULTIZ119.bw
 html siRNA.MULTIZ119
 shortLabel MULTIZ119 freq
 longLabel Frequency of 21bp window in MULTIZ119 (vert CoV) genomes
@@ -223,8 +223,8 @@ color 0,145,145
 #- Off targets
 #----------------------------------
 
-track siRNA.gencode.bb
-bigDataUrl siRNA.gencode.bb
+track siRNA.gencode.bw
+bigDataUrl siRNA.gencode.bw
 html siRNA.gencode
 shortLabel Seed freq
 longLabel Frequency of 6bp seeds in human transcriptome 
@@ -235,8 +235,8 @@ graphTypeDefault bar
 color 255,20,147 
 # deep pink
 
-track siRNA.gencodeRC.bb
-bigDataUrl siRNA.gencodeRC.bb
+track siRNA.gencodeRC.bw
+bigDataUrl siRNA.gencodeRC.bw
 html siRNA.gencode
 shortLabel Seed freq (RC)
 longLabel Frequency of reverse complement 6bp seeds in human transcriptome
