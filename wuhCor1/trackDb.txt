@@ -182,13 +182,12 @@ graphTypeDefault bar
 color 0,0,0  
 # black
 
-track siRNA.gisaid.bb
-bigDataUrl siRNA.gisaid.bb
+track siRNA.gisaid.bw
+bigDataUrl siRNA.gisaid.bw
 html siRNA.gisaid
 shortLabel GISAID freq
 longLabel Frequency of 21bp window in GISAID genomes
-type bigBed 6 .
-spectrum on
+type bigWig .
 visibility dense
 labelFields none
 graphTypeDefault bar
