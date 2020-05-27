@@ -187,9 +187,9 @@ bigDataUrl siRNA.gisaid.bw
 html siRNA.gisaid
 shortLabel GISAID freq
 longLabel Frequency of 21bp window in GISAID genomes
-type bigWig .
+type bigWig
 visibility dense
-labelFields none
+autoScale on
 graphTypeDefault bar
 color 250,128,114  
 # salmon
