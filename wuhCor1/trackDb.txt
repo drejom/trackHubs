@@ -119,6 +119,7 @@ html andrews.scanfold
 shortLabel Andrews structured
 longLabel Andrews et al ScanFold structured regions 
 type bigBed 6 .
+spectrum on
 visibility dense
 labelFields none
 graphTypeDefault bar
@@ -187,6 +188,7 @@ html siRNA.gisaid
 shortLabel GISAID freq
 longLabel Frequency of 21bp window in GISAID genomes
 type bigBed 6 .
+spectrum on
 visibility dense
 labelFields none
 graphTypeDefault bar
@@ -199,6 +201,7 @@ html siRNA.MULTIZ44
 shortLabel MULTIZ44 freq
 longLabel Frequency of 21bp window in MULTIZ44 (bat Cov) genomes
 type bigBed 6 .
+spectrum on
 visibility dense
 labelFields none
 graphTypeDefault bar
@@ -211,6 +214,7 @@ html siRNA.MULTIZ119
 shortLabel MULTIZ119 freq
 longLabel Frequency of 21bp window in MULTIZ119 (vert CoV) genomes
 type bigBed 6 .
+spectrum on
 visibility dense
 labelFields none
 graphTypeDefault bar
@@ -228,6 +232,7 @@ html siRNA.gencode
 shortLabel Seed freq
 longLabel Frequency of 6bp seeds in human transcriptome 
 type bigBed 6 .
+spectrum on
 visibility dense
 labelFields none
 graphTypeDefault bar
@@ -240,6 +245,7 @@ html siRNA.gencode
 shortLabel Seed freq (RC)
 longLabel Frequency of reverse complement 6bp seeds in human transcriptome
 type bigBed 6 .
+spectrum on
 visibility dense
 labelFields none
 graphTypeDefault bar
