@@ -186,7 +186,7 @@ bigDataUrl siRNA.gisaid.bb
 html siRNA.gisaid
 shortLabel GISAID freq
 longLabel Frequency of 21bp window in GISAID genomes
-type bigBed 4 .
+type bigBed 6 .
 visibility dense
 labelFields none
 graphTypeDefault bar
@@ -198,7 +198,7 @@ bigDataUrl siRNA.MULTIZ44.bb
 html siRNA.MULTIZ44
 shortLabel MULTIZ44 freq
 longLabel Frequency of 21bp window in MULTIZ44 (bat Cov) genomes
-type bigBed 4 .
+type bigBed 6 .
 visibility dense
 labelFields none
 graphTypeDefault bar
@@ -210,7 +210,7 @@ bigDataUrl siRNA.MULTIZ119.bb
 html siRNA.MULTIZ119
 shortLabel MULTIZ119 freq
 longLabel Frequency of 21bp window in MULTIZ119 (vert CoV) genomes
-type bigBed 4 .
+type bigBed 6 .
 visibility dense
 labelFields none
 graphTypeDefault bar
@@ -227,7 +227,7 @@ bigDataUrl siRNA.gencode.bb
 html siRNA.gencode
 shortLabel Seed freq
 longLabel Frequency of 6bp seeds in human transcriptome 
-type bedGraph . 
+type bigBed 6 .
 visibility dense
 labelFields none
 graphTypeDefault bar
@@ -239,7 +239,7 @@ bigDataUrl siRNA.gencodeRC.bb
 html siRNA.gencode
 shortLabel Seed freq (RC)
 longLabel Frequency of reverse complement 6bp seeds in human transcriptome
-type bedGraph .
+type bigBed 6 .
 visibility dense
 labelFields none
 graphTypeDefault bar
