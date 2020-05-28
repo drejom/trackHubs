@@ -275,9 +275,10 @@ bigDataUrl COH.siRNAs.bb
 html COH.siRNAs
 shortLabel COH candidates
 longLabel Candidate siRNAs from Tristan Scott (COH)
-type bigBed 4 .
+type bigBed 6 .
+spectrum on
 visibility dense
-labelFields none
+labelFields name
 graphTypeDefault bar
 color 50,205,50  
 # lime green
