@@ -277,7 +277,7 @@ shortLabel COH candidates
 longLabel Candidate siRNAs from Tristan Scott (COH)
 type bigBed 6 .
 spectrum on
-visibility dense
+visibility squish
 labelFields name
 graphTypeDefault bar
 color 50,205,50  
@@ -292,7 +292,7 @@ shortLabel DSIR candidates
 longLabel Candidate siRNAs from DSIR 
 type bigBed 6 .
 spectrum on
-visibility dense
+visibility squish
 labelFields name
 graphTypeDefault bar
 color 0,128,0  
@@ -306,7 +306,7 @@ shortLabel SARS1 siRNAs
 longLabel VIRsiDB SARS1 validated siRNAs 
 type bigBed 6 .
 spectrum on
-visibility dense
+visibility squish
 labelFields name
 graphTypeDefault bar
 color 34,139,34  
@@ -320,7 +320,7 @@ shortLabel OligoWalk candidates
 longLabel Candidate siRNAs from OligoWalk
 type bigBed 6 .
 spectrum on
-visibility dense
+visibility squish
 labelFields name
 graphTypeDefault bar
 color 0,100,0  
