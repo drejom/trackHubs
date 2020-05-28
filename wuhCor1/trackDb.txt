@@ -264,3 +264,63 @@ autoScale on
 graphTypeDefault bar
 color 255,105,180 
 # hot pink
+
+#----------------------------------
+#- siRNA candidates
+#----------------------------------
+
+track COH.siRNAs.bb
+priority 95
+bigDataUrl COH.siRNAs.bb
+html COH.siRNAs
+shortLabel COH candidates
+longLabel Candidate siRNAs from Tristan Scott (COH)
+type bigBed 4 .
+visibility dense
+labelFields none
+graphTypeDefault bar
+color 50,205,50  
+# lime green
+
+
+track DSIR.score.bb
+priority 92
+bigDataUrl DSIR.score.bb
+html DSIR.score
+shortLabel DSIR candidates
+longLabel Candidate siRNAs from DSIR 
+type bigBed 6 .
+spectrum on
+visibility dense
+labelFields name
+graphTypeDefault bar
+color 0,128,0  
+# green
+
+track SARS1.efficacy.bb
+priority 99
+bigDataUrl SARS1.efficacy.bb
+html SARS1.efficacy
+shortLabel SARS1 siRNAs
+longLabel VIRsiDB SARS1 validated siRNAs 
+type bigBed 6 .
+spectrum on
+visibility dense
+labelFields name
+graphTypeDefault bar
+color 34,139,34  
+# forest green
+
+track oligowalk.probablity.bb
+priority 90
+bigDataUrl oligowalk.probablity.bb
+html oligowalk.probablity.bb
+shortLabel OligoWalk candidates
+longLabel Candidate siRNAs from OligoWalk
+type bigBed 6 .
+spectrum on
+visibility dense
+labelFields name
+graphTypeDefault bar
+color 0,100,0  
+# dark green
