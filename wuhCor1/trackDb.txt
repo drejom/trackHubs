@@ -6,8 +6,8 @@
 #- Andrews  et al 2020
 #----------------------------------
 
-priority 10
 track andrews.dGZsc.bw
+priority 10
 bigDataUrl andrews.dGZsc.bw
 shortLabel Andrews dGZsc
 longLabel Andrews et al delta G Z-score
@@ -18,8 +18,8 @@ graphTypeDefault bar
 color 25,25,112
 # midnight blue
 
-priority 10
 track andrews.EDV.bw
+priority 10
 bigDataUrl andrews.EDV.bw
 html andrews.EDV
 shortLabel Andrews EDV
@@ -31,8 +31,8 @@ graphTypeDefault bar
 color 0,0,128  
 # navy
 
-priority 10
 track andrews.MFEdG.bw
+priority 10
 bigDataUrl andrews.MFEdG.bw
 shortLabel Andrews MFEdG
 longLabel Andrews et al Minimum Free Energy delta G
@@ -43,8 +43,8 @@ graphTypeDefault bar
 color 0,0,139
 # dark blue
 
-priority 10
 track andrews.pvalue.bw
+priority 10
 bigDataUrl andrews.pvalue.bw
 shortLabel Andrews pvalue
 longLabel Andrews et al z-score p-values
@@ -58,8 +58,8 @@ color 0,0,205
 #----------------------------------
 #- Rangan et al 2020 
 #----------------------------------
-priority 30
 track rangan.prob_unparied.bw
+priority 30
 bigDataUrl rangan.prob_unparied.bw
 shortLabel Rangan Prob unpaired
 longLabel Rangan et al probability of being unpaired
@@ -70,8 +70,8 @@ graphTypeDefault bar
 color 139,69,19
 # saddle brown
 
-priority 30
 track rangan.100CoV_perc_cons.bw
+priority 30
 bigDataUrl rangan.100CoV_perc_cons.bw
 shortLabel Rangan conservation
 longLabel Rangan et al Top 100 Blast hits Conservation
@@ -91,8 +91,8 @@ color 160,82,45
 #- Kim et al 2020
 #----------------------------------
 
-priority 20
 track kim.mod_motif.bb
+priority 20
 bigDataUrl kim.mod_motif.bb
 html kim.mod_motif
 shortLabel Kim motif
@@ -104,8 +104,8 @@ graphTypeDefault points
 color 128,0,128  
 # purple
 
-priority 20
 track kim.mod_sites.bb
+priority 20
 bigDataUrl kim.mod_sites.bb
 html kim.mod_sites
 shortLabel Kim sites
@@ -121,8 +121,8 @@ color 153,50,204
 #- Andrews  et al 2020
 #----------------------------------
 
-priority 10
 track andrews.scanfold.bb
+priority 10
 bigDataUrl andrews.scanfold.bb
 html andrews.scanfold
 shortLabel Andrews structured
@@ -139,8 +139,8 @@ color 72,61,139
 #- Rangan et al 2020
 #----------------------------------
 
-priority 30
 track rangan.Table1.conserved.bb
+priority 30
 bigDataUrl rangan.Table1.conserved.bb
 html rangan.Table1.conserved
 shortLabel Rangan conserved
@@ -152,8 +152,8 @@ graphTypeDefault bar
 color 210,105,30  
 # chocolate
 
-priority 30
 track rangan.Table2.cons_str.bb
+priority 30
 bigDataUrl rangan.Table2.cons_str.bb
 html rangan.Table2.cons_str
 shortLabel Rangan conserved structured
@@ -165,8 +165,8 @@ graphTypeDefault bar
 color 205,133,63 
 # peru
 
-priority 30
 track rangan.Table3.cons_unstr.bb
+priority 30
 bigDataUrl rangan.Table3.cons_unstr.bb
 html rangan.Table3.cons_unstr
 shortLabel Rangan conserved unstructured
@@ -182,8 +182,8 @@ color 244,164,96
 #- Conservation
 #----------------------------------
 
-priority 50
 track siRNA.SARS1.bb
+priority 50
 bigDataUrl siRNA.SARS1.bb
 html siRNA.SARS1
 shortLabel 21bp in SARS1
@@ -195,8 +195,8 @@ graphTypeDefault bar
 color 0,0,0  
 # black
 
-priority 40
 track siRNA.gisaid.bw
+priority 40
 bigDataUrl siRNA.gisaid.bw
 html siRNA.gisaid
 shortLabel GISAID freq
@@ -208,8 +208,8 @@ graphTypeDefault bar
 color 250,128,114  
 # salmon
 
-priority 60
 track siRNA.MULTIZ44.bw
+priority 60
 bigDataUrl siRNA.MULTIZ44.bw
 html siRNA.MULTIZ44
 shortLabel MULTIZ44 freq
@@ -221,8 +221,8 @@ graphTypeDefault bar
 color 0,128,128  
 # teal
 
-priority 70
 track siRNA.MULTIZ119.bw
+priority 70
 bigDataUrl siRNA.MULTIZ119.bw
 html siRNA.MULTIZ119
 shortLabel MULTIZ119 freq
@@ -239,8 +239,8 @@ color 0,145,145
 #- Off targets
 #----------------------------------
 
-priority 80
 track siRNA.gencode.bw
+priority 80
 bigDataUrl siRNA.gencode.bw
 html siRNA.gencode
 shortLabel Seed freq
@@ -252,8 +252,8 @@ graphTypeDefault bar
 color 255,20,147 
 # deep pink
 
-priority 80
 track siRNA.gencodeRC.bw
+priority 80
 bigDataUrl siRNA.gencodeRC.bw
 html siRNA.gencode
 shortLabel Seed freq (RC)
