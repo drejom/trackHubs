@@ -280,8 +280,8 @@ spectrum on
 visibility squish
 labelFields name
 graphTypeDefault bar
-color 85,107,47  
-# dark olive green
+color 46,139,87 
+# sea green
 
 
 track DSIR.score.bb
