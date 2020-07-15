@@ -324,4 +324,4 @@ visibility squish
 labelFields name
 graphTypeDefault bar
 color 0,100,0  
-# dark green
+#  green
