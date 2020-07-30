@@ -5280,10 +5280,47 @@ MULTIZ119_MULTIZ44_SARS1_gisaid_structural_filter &lt;-
 gencode_MULTIZ119_MULTIZ44_SARS1_gisaid_structural_filter &lt;- 
       subsetByOverlaps(gencodeRC_SARS2.gr,MULTIZ119_MULTIZ44_SARS1_gisaid_structural_filter,type=&quot;within&quot;)  #2
 kim_gencode_MULTIZ119_MULTIZ44_SARS1_gisaid_structural_filter &lt;- 
-      subsetByOverlaps(kim.mod.gr,gencode_MULTIZ119_MULTIZ44_SARS1_gisaid_structural_filter,type=&quot;within&quot;)  #0
-
-
-# make a table of selections
+      subsetByOverlaps(kim.mod.gr,gencode_MULTIZ119_MULTIZ44_SARS1_gisaid_structural_filter,type=&quot;within&quot;)  #0</code></pre>
+<table>
+<thead>
+<tr class="header">
+<th>Criterion</th>
+<th>Number of candidates remaining</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Relaxed structural (Andrews et al, ignoring Rangan et al)</td>
+<td>6226</td>
+</tr>
+<tr class="even">
+<td>+ Maximal GISAID frequency</td>
+<td>635</td>
+</tr>
+<tr class="odd">
+<td>+ SARS-CoV-1</td>
+<td>23</td>
+</tr>
+<tr class="even">
+<td>+ MULTIZ44</td>
+<td>23</td>
+</tr>
+<tr class="odd">
+<td>+ MULTIZ119</td>
+<td>21</td>
+</tr>
+<tr class="even">
+<td>+ Off targets</td>
+<td>2</td>
+</tr>
+<tr class="odd">
+<td>+ RNA mods</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+<p>Candidates surviving the filters up until <em>RNA mods</em> can be found in the “Relaxed selections” tab of the excel sheet in the <a href="../results">results folder</a>.</p>
+<pre class="r"><code># make a table of selections
 SARS2.relaxed.selection&lt;-data.frame(values(gencode_MULTIZ119_MULTIZ44_SARS1_gisaid_structural_filter))
 rownames(SARS2.relaxed.selection)&lt;-NULL
 
@@ -5588,45 +5625,6 @@ NA
 </table>
 <pre class="r"><code># save as an excel sheet
 write.xlsx(SARS2.relaxed.selection, &quot;../results/SARS2-candidate-siRNA.xlsx&quot;, sheetName = &quot;Selected Candidates&quot;, col.names = TRUE, row.names = FALSE, append = TRUE)</code></pre>
-<table>
-<thead>
-<tr class="header">
-<th>Criterion</th>
-<th>Number of candidates remaining</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Relaxed structural (Andrews et al, ignoring Rangan et al)</td>
-<td>6226</td>
-</tr>
-<tr class="even">
-<td>+ Maximal GISAID frequency</td>
-<td>635</td>
-</tr>
-<tr class="odd">
-<td>+ SARS-CoV-1</td>
-<td>23</td>
-</tr>
-<tr class="even">
-<td>+ MULTIZ44</td>
-<td>23</td>
-</tr>
-<tr class="odd">
-<td>+ MULTIZ119</td>
-<td>21</td>
-</tr>
-<tr class="even">
-<td>+ Off targets</td>
-<td>2</td>
-</tr>
-<tr class="odd">
-<td>+ RNA mods</td>
-<td>0</td>
-</tr>
-</tbody>
-</table>
-<p>Candidates surviving the filters up until <em>RNA mods</em> can be found in the “Relaxed selections” tab of the excel sheet in the <a href="../results">results folder</a>.</p>
 <div id="further-reading" class="section level2">
 <h2><span class="header-section-number">4.1</span> Further reading</h2>
 <p><span class="citation">(Rad SM and McLellan 2020)</span> Implications of SARS-CoV-2 mutations for genomic RNA structure and host microRNA targeting 2 mutations that might be important miRNA target sites</p>
