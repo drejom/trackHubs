@@ -1683,7 +1683,7 @@ options(scipen=999)
 <h2 id="approach" class="unnumbered">Approach</h2>
 <p>OligoWalk uses a machine learning algorithm to assess the effect of target and guide-strand self-structures and 24 sequence features known to impact siRNA efficacy in shorlisting candidates. DSIR uses a simple linear model that considers only sequence features of candidates. Both OligoWalk and DSIR assess the entire SARS2 genome in sliding 21 bp windows for candidate siRNAs, so in regions of the genome where structural or sequence features are suboptimal, no candidates are reported. For each algorithm, we produce a list of the top 10 candidates and the bottom 10 candidates, as ranked by efficacy.</p>
 <p>For the combined analysis, we restrict the candidates to those that fall in windows defined by the lack of secondary structure (viz. Rangan, Andrews), sequence conservation (in GISAID, in SARS-CoV-1, in bat coronaviruses and in vertebrate coronaviruses), off-target effects (seed sequence frequency in human transcripts) and finally consider endogenous mRNA modifications of viral genes.</p>
-<p>Excel sheets and figures from this report can be <a href="../results">found in the results folder</a>.</p>
+<p>Excel sheets and figures from this report can be <a href="../results/SARS2-candidate-siRNA.xlsx">found in the results folder</a>.</p>
 </div>
 </div>
 <div id="candidate-sirnas" class="section level1">
@@ -5319,7 +5319,7 @@ kim_gencode_MULTIZ119_MULTIZ44_SARS1_gisaid_structural_filter &lt;-
 </tr>
 </tbody>
 </table>
-<p>Candidates surviving the filters up until <em>RNA mods</em> can be found in the “Relaxed selections” tab of the excel sheet in the <a href="../results">results folder</a>.</p>
+<p>Candidates surviving the filters up until <em>RNA mods</em> can be found in the “Relaxed selections” tab of the excel sheet in the <a href="../results/SARS2-candidate-siRNA.xlsx">results folder</a>.</p>
 <pre class="r"><code># make a table of selections
 SARS2.relaxed.selection&lt;-data.frame(values(gencode_MULTIZ119_MULTIZ44_SARS1_gisaid_structural_filter))
 rownames(SARS2.relaxed.selection)&lt;-NULL
